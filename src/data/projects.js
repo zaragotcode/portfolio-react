@@ -7,7 +7,7 @@ export const projects = [
     deploymentLink:'https://song-check.fly.dev/'
   },
   {
-    title:'Choose Your Adventure (Software Engineer Edition)',
+    title:'Choose Your Adventure',
     description: "Choose your adventure is a web-based simulation game that allows the player to choose their path of becoming a software engineer. When the player clicks 'play now' the game begins and a prompt appears with buttons giving you choices. Based on the player's button selection, the next prompt will appear. ",
     image: 'https://i.imgur.com/dNlKyxX.png',
     repositoryLink: 'https://github.com/zaragotcode/choose-your-adventure',
