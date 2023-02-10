@@ -1,5 +1,3 @@
-// import '../../../public/Mazara Patrick Resume.pdf'
-
 const Resume = () => {
   return (
     <>
