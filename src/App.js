@@ -17,6 +17,10 @@ function App() {
   return (
     <>
     <Header />
+    
+    <main className='main'>
+      <Home />
+    </main>
     {/* <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
