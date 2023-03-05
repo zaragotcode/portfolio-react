@@ -1,4 +1,6 @@
+import React from 'react';
 import './App.css';
+import Header from './components/Header/Header';
 
 import { Routes, Route } from 'react-router-dom';
 
@@ -13,7 +15,8 @@ import ProjectDetails from './components/Project/ProjectDetails';
 function App() {
   return (
     <>
-    <NavBar />
+    <Header />
+    {/* <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -21,7 +24,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/projects/:projectDetails" element={<ProjectDetails />} />
-      </Routes>
+      </Routes> */}
     </>
   );
 }
