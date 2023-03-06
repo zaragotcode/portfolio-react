@@ -1,0 +1,8 @@
+.contact__container {
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.contact__form {
+  width: 360px;
+}
