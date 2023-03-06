@@ -19,7 +19,6 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <Footer />
     </main>
 
     <Footer />
