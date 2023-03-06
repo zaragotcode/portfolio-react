@@ -5,6 +5,7 @@ import './App.css';
 
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+import About from './components/About/About';
 // import Home from './pages/Home/Home';
 // import About from './pages/About/About';
 // import Contact from './pages/Contact/Contact';
@@ -20,6 +21,7 @@ function App() {
     
     <main className='main'>
       <Home />
+      <About />
     </main>
     {/* <NavBar />
       <Routes>
