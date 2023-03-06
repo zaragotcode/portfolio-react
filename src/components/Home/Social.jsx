@@ -3,12 +3,11 @@ import React from 'react'
 const Social = () => {
   return (
     <div className="home__social">
-
       <a 
         href="mailto:patrickmazara@hotmail.com" 
         className="home__social-icon" 
         target="_blank" rel="noreferrer">
-        <i class="uil uil-envelope-edit"></i>      
+          <i class="bx bxs-envelope"></i>
       </a>
 
       <a 
