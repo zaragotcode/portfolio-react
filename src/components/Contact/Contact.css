@@ -8,6 +8,7 @@
   font-size: var(--53-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-1-5);
+  margin-top: var(--mb-2);
 }
 
 .contact__form {
