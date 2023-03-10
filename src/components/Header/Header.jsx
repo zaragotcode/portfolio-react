@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css"
 
-
 const Header = () => {
 
     window.addEventListener("scroll", function () {
@@ -12,15 +11,13 @@ const Header = () => {
 
     const[Toggle, showMenu] = useState(false)
     const[activeNav, setActiveNav] = useState("#home")
-    
 
   return (
     <header className="header">
       <nav className="nav container">
         <a href="#home" className="nav__logo">M A Z A R A</a>
-
-
-        <div className="nav__menu">
+        
+        <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">
               <a href="#home" 
@@ -30,11 +27,11 @@ const Header = () => {
                 }
               >
                 <i className="uil uil-estate nav__icon"></i> 
-                Home
+                HOME
               </a>
             </li>
 
-            <li className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
+            <li className="nav__item">
               <a href="#about" 
                 onClick={() => setActiveNav("#about")}  
                 className={activeNav === "#about" ? 
@@ -42,7 +39,7 @@ const Header = () => {
                 }
               >
                 <i className="uil uil-user nav__icon"></i> 
-                About
+                ABOUT
               </a>
             </li>
 
@@ -54,7 +51,7 @@ const Header = () => {
                 }
               >
                 <i className="uil uil-file-alt nav__icon"></i>
-                Skills
+                SKILLS
               </a>
             </li>
 
@@ -65,7 +62,7 @@ const Header = () => {
                 "nav__link active-link" : "nav__link"
                 }>
                 <i className="uil uil-scenery nav__icon"></i>
-                Projects
+                PROJECTS
               </a>
             </li>
 
@@ -76,7 +73,7 @@ const Header = () => {
                 "nav__link active-link" : "nav__link"
                 }>
                 <i className="uil uil-message nav__icon"></i>
-                Contact
+                CONTACT
               </a>
             </li>
           </ul>
