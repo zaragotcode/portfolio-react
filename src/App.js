@@ -11,6 +11,8 @@ import Footer from './components/Footer/Footer';
 import ScrollUp from './components/ScrollUp/ScrollUp';
 import Projects from './components/Projects/Projects';
 
+import { projects } from "../src/data/projects.js"
+
 
 function App() {
   return (
@@ -21,7 +23,7 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <Projects />
+      <Projects projects={projects}/>
       <Contact />
     </main>
 
