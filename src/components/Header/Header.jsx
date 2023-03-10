@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="#home" className="nav__logo">Mazara</a>
+        <a href="#home" className="nav__logo">M A Z A R A</a>
 
 
         <div className="nav__menu">

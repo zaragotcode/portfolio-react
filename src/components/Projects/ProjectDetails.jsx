@@ -12,6 +12,19 @@ const ProjectDetails = (props) => {
 
 
       <p className="project__description">{props.project.description}</p>
+    
+    <div className='button-links '>
+      <div className="projectLink-button">
+        <a href={props.project.repositoryLink}>
+          <button className='button' >Repositiory</button>
+        </a>
+      </div>
+      <div className="projectLink-button">
+        <a href={props.project.deploymentLink}>
+          <button className='button'>Deployment</button>
+        </a>
+      </div>
+    </div>
     </div>
   )
 }

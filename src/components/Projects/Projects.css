@@ -29,11 +29,43 @@
 }
 
 
+.project__title {
+  color: gold;
+}
+
 .project__description {
   margin-top: 16px;
   min-height: 125px;
+  margin-bottom: 16px;
+  color: white;
 }
 
 .project__title {
   margin-top: 30px;
+}
+
+.button-links {
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+  justify-content: center;
+  gap: 12px;
+}
+
+.button-links button {
+  margin-top: 16px;
+  height: 16px;
+  width: 100%;
+  text-align: center;
+  font-size: 8px;
+  line-height: 0px;
+  padding: 12px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .projects__container {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
 }

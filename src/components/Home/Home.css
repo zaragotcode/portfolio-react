@@ -21,7 +21,7 @@
 }
 
 .home__social-icon:hover {
-  color: var(--title-color-dark);
+  color: gold;
 }
 
 .home__title {
@@ -41,6 +41,7 @@
   padding-left: 5.4rem;
   font-weight: var(--font-normal);
   margin-bottom: var(--mb-1);
+  color: gold;
 }
 
 .home__subtitle::before {
@@ -60,7 +61,7 @@
   height: 1px;
   background-color: var(--text-color);
   left: -100;
-  right: 72px;
+  right: 58px;
   top: 0.8rem;
 }
 
@@ -68,6 +69,12 @@
   max-width: 400px;
   margin-bottom: var(--mb-3);
 }
+
+.home__scroll span {
+  position: relative;
+  bottom: 12px;
+} 
+
 
 .home__img{
   background: url(../../assets/profile.jpg);
@@ -145,6 +152,12 @@
   .home__subtitle::before {
     width: 42px;
     top: 0.8rem;
+  }
+
+  .home__subtitle::after {
+    width: 42px;
+    top: 0.8rem;
+    right: 94px;
   }
 
   .home__description {

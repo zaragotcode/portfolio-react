@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;700&display=swap');
+
 .header{
   width: 100%;
   position: fixed;
@@ -20,6 +22,13 @@
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
+
+.nav__logo {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+  color: gold;
+}
+
 
 .nav__list {
   display: flex;
@@ -44,7 +53,7 @@
 
 .active-link,
 .nav__link:hover {
-  color: blue;
+  color: white;
 }
 
 .scroll-header {

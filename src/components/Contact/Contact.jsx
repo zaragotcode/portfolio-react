@@ -17,11 +17,10 @@ const Contact = () => {
 
   return (
     <section className="contact section" id="contact">
-      <h2 className="section__title">Contact me</h2>
+      <h2 className="section__title">Contact Me</h2>
 
       <div className="contact__container containe grid">
           <div className="contact__content">
-            <h3 className="contact__title">Send an e-mail!</h3>
 
             <form className="contact__form" ref={form} onSubmit={sendEmail}>
 
@@ -30,6 +29,7 @@ const Contact = () => {
                 <input type="text" name="name" 
                   className="contact__form-input" 
                   placeholder="Insert your name"
+                  autoComplete="off"
                 />
               </div>
 
@@ -38,6 +38,7 @@ const Contact = () => {
                 <input type="email" name="email" 
                   className="contact__form-input" 
                   placeholder="Insert your email"
+                  autoComplete="off"
                 />
               </div>
 
@@ -46,6 +47,7 @@ const Contact = () => {
                 <textarea name="message" cols="30" rows="10" 
                 className="contact__form-input"
                 placeholder="Insert message here"
+                autoComplete="off"
                 >
                 </textarea>
               </div>

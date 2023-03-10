@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&display=swap');
 
 :root {
   --header-height: 3rem;
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color: rgb(127, 12, 209);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
-  --body-font: "Poppins", sans-serif;
+  --text-color: white;
+  --body-color: black;
+  --container-color: #2d0454;
+  --body-font: "Archivo", sans-serif;
   --big-font-size: 3.0rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
@@ -63,7 +63,7 @@ button,
 input,
 textarea {
   font-family: var(--body-font);
-  font-family: var(--normal-font-size);
+  /* font-family: var(--normal-font-size); */
 
 }
 
@@ -89,6 +89,10 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+}
+
+a {
+  color: var(--title-color);
 }
 
 img {
@@ -137,7 +141,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: gold;
 }
 
 .button__icon {

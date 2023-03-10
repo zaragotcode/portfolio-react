@@ -1,24 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;700&display=swap');
+
 .footer {
   background-color: var(--container-color);
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+  color: white;
 }
 
 .footer__container {
   padding: 2rem 0 6rem;
 }
 
+.footer__container i{
+  color: gold;
+}
+
 .footer__title,
 .footer__link {
-  color: var(--title-color);
+  color: white;
 }
 
 .footer__title {
   text-align: center;
   margin-bottom: var(--mb-2);
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .footer__link:hover {
-  color: var(--title-color-dark);
+  color: gold;
 }
 
 .footer__list {
@@ -30,7 +38,6 @@
 
 .footer__social {
   display: flex;
-
   justify-content: center;
   column-gap: 1.25rem;
 }
@@ -51,7 +58,7 @@
 .footer__copy {
   display: block;
   margin-top: 4.5rem;
-  color: var(--title-color);
+  color: white;
   text-align: center;
   font-size: var(--smaller-font-size);
 }
