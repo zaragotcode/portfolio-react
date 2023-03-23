@@ -16,7 +16,7 @@ const About = () => {
             Hi, I’m Patrick! A full-stack engineer with a passion for web and mobile development and a love for all things music related.
             <br></br>
             <br></br>
-            Before transition to software engineering, I was a project manager and in my most previous role I had been exposed to software engineering. I quickly found myself desiring to learn more about the field and after researching decided wanted to pursue it as a career. As a result I decided to attend General Assembly's software engineering immersive to help me develop my skills and aid my career switch.
+            Before transition to software engineering, I was a project manager and in my most previous role I had been exposed to software engineering. I quickly found myself desiring to learn more about the field and after researching, I decided I wanted to pursue it as a career. As a result I decided to attend General Assembly's software engineering immersive to help me develop my skills and aid my career switch.
           </p>
         
           <a 
