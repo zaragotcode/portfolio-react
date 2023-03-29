@@ -21,9 +21,9 @@ const Footer = () => {
 
         <div className="footer__social">
           <a 
-            href="mailto:patrickmazara@hotmail.com" 
+            href="#contact" 
             className="footer__social-icon" 
-            target="_blank" rel="noreferrer">
+            rel="noreferrer">
               <i class="bx bxs-envelope"></i>  
           </a>
 
