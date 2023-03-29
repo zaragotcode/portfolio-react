@@ -4,13 +4,6 @@ const Social = () => {
   return (
     <div className="home__social">
       <a 
-        href="mailto:patrickmazara@hotmail.com" 
-        className="home__social-icon" 
-        target="_blank" rel="noreferrer">
-          <i class="bx bxs-envelope"></i>
-      </a>
-
-      <a 
         href="https://www.linkedin.com/in/patrickmazara/" 
         className="home__social-icon" 
         target="_blank" rel="noreferrer">
