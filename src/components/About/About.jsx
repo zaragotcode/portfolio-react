@@ -29,7 +29,6 @@ const About = () => {
           </a>
         </div>
       </div>
-    
     </section>
   )
 }
