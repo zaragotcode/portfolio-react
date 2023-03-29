@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title:"JobPlay",
+    description: "JobPlay turns job hunting and career advancement into a fun, rewarding, and interactive experience in which users can track job opportunities, build on their skillsets, and expand their professional networks, all while earning points and unlocking badges to mark their progress.",
+    image: "https://i.imgur.com/Dz35cd1.jpg",
+    repositoryLink: "https://github.com/luisdaniel0/Jobplay",
+    deploymentLink:"https://job-play.netlify.app/",
+    skillIcons: ["bx bxl-mongodb", "bx bxl-nodejs", "bx bxl-nodejs", "bx bxl-react", "bx bxl-html5", "bx bxl-css3"],
+    skillName: ["MongoDB", "Express" ,"Node.js" ,"React", "HTML5", "CSS3"]
+  },
+  {
     title:"Pix",
     description: "Pix is a web application with CRUD functionality for music professionals and hobbyists alike. It allows users to ask questions, receive feedback, and connect with others in the industry. The app also serves as a hub for knowledge sharing and provides access to lyrics as quotes.",
     image: "https://i.imgur.com/V0SNQTY.png",
