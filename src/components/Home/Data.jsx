@@ -54,8 +54,8 @@ const Data = () => {
         ></path>
       </svg>
       </h1>
-      <h3 className="home__subtitle animate__animated animate__flash">Software Engineer</h3>
-      <p className="home__description">Full Stack Software Engineer with experience in Project Managament and a passion for making ideas come to life.</p>
+      <h3 className="home__subtitle animate__animated animate__flash">Software Developer</h3>
+      <p className="home__description">Software Developer and former Project Manager with a background in developing web and mobile applications. Skilled in collaborating with multi-disciplinary teams to deliver high-quality software solutions and a passion for making ideas come to life.</p>
       <a href="#contact" className="button button--flex">
         Say Hello 
         <svg
