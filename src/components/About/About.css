@@ -1,5 +1,5 @@
 .about__container {
-  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: repeat(2, 1fr); */
   align-items: center;
   column-gap: 4rem;
 }
@@ -41,7 +41,8 @@
 
 .about__description {
   padding: 0 4rem 0 0;
-  margin-bottom: var(--mb-2-5)
+  margin-bottom: var(--mb-2-5);
+  margin-top: 24px;
 }
 
 @media screen and (max-width: 992px) {
